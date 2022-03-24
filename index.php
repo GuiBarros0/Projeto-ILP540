@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +16,11 @@
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
+    <style>
+        div{
+            border: 1px #000 solid;
+        }
+    </style>
 </head>
 
 <body>
@@ -46,7 +52,7 @@
                                 </div>
 
                                 <div>
-                                    <p class="mb-0">Não tem uma conta? <a href="#!" class="text-white-50 fw-bold">Se
+                                    <p class="mb-0">Não tem uma conta? <a href="cadastro.html" class="text-white-50 fw-bold">Se
                                             Inscreva!</a></p>
                                 </div>
 
