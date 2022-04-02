@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -31,32 +31,52 @@
                                     <h2 class="fw-bold mb-2 text-uppercase">Cadastro</h2>
                                     <p class="text-white-50 mb-5">Faça seu cadastro!</p>
 
-                                    <div class="form-outline form-white mb-4">
-                                        <input placeholder="Nome:" type="name" id="typeNameX"
-                                            class="form-control form-control-lg" />
-                                    </div>
+                                    <form action="#" class="needs-validation" novalidate>
+                                        <div class="form-row">
+                                            <div class="form-outline form-white mb-4">
+                                                <input placeholder="Nome:" type="name" id="typeNameX"
+                                                    class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, escolha um nome de usuário.
+                                                </div>
+                                            </div>
 
-                                    <div class="form-outline form-white mb-4">
-                                        <input placeholder="E-mail:" type="email" id="typeEmailX"
-                                            class="form-control form-control-lg" />
-                                    </div>
+                                            <div class="form-outline form-white mb-4">
+                                                <input placeholder="E-mail:" type="email" id="typeEmailX"
+                                                    class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, escolha um e-mail.
+                                                </div>
+                                            </div>
 
-                                    <div class="form-outline form-white mb-4">
-                                        <input placeholder="Senha:" type="password" id="typePasswordX"
-                                            class="form-control form-control-lg" />
-                                    </div>
+                                            <div class="form-outline form-white mb-4">
+                                                <input placeholder="Senha:" type="password" id="typePasswordX"
+                                                    class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, digite uma senha.
+                                                </div>
+                                            </div>
 
-                                    <div class="form-outline form-white mb-4">
-                                        <input placeholder="Confirmar Senha:" type="password" id="typeRepeatPasswordX"
-                                            class="form-control form-control-lg" />
-                                    </div>
+                                            <div class="form-outline form-white mb-4">
+                                                <input placeholder="Confirmar Senha:" type="password"
+                                                    id="typeRepeatPasswordX" class="form-control form-control-lg"
+                                                    required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, repita sua senha.
+                                                </div>
+                                            </div>
 
-                                    <button class="btn btn-outline-light btn-lg px-5" type="submit" onclick="funcao1()" value="Exibir Alert">Cadastrar</button>
+
+
+                                            <button class="btn btn-outline-light btn-lg px-5" type="submit">Cadastrar</button>
+
+                                        </div>
+                                    </form>
 
                                 </div>
-
                                 <div>
-                                    <p class="mb-0">Já tem uma conta? <a href="index.php" class="text-white-50 fw-bold">Faça login!</a></p>
+                                    <p class="mb-0">Já tem uma conta? <a href="index.html"
+                                            class="text-white-50 fw-bold">Faça login!</a></p>
                                 </div>
 
                             </div>
@@ -71,12 +91,13 @@
 
 
     <footer>
-        <a class="mt-5 mb-3 text-muted" style=" text-decoration: none" title="Os alunos de ADS te convidam a conhecer
+        <a class="mt-5 mb-3 text-muted fixarRodape" style=" text-decoration: none" title="Os alunos de ADS te convidam a conhecer
     a página da faculdade Fatec de Presidente Prudente - SP" href="http://fatecpp.edu.br/" target="_blank">
             <small>&copy; 2022 Fatec Pres. Prudente</small></a>
 
 
     </footer>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
