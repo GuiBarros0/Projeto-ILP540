@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,14 +16,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
     <style>
-        div{
+        div {
             border: 1px #000 solid;
         }
     </style>
 </head>
 
 <body>
-    <a href="logado.html">Tela de logado</a>
     <main>
         <section class="vh-100 gradient-custom">
             <div class="container py-5 h-100">
@@ -38,22 +36,30 @@
                                     <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                                     <p class="text-white-50 mb-5">Entre com seu email e senha!</p>
 
-                                    <div class="form-outline form-white mb-4">
-                                        <input placeholder="E-mail:" type="email" id="typeEmailX"
-                                            class="form-control form-control-lg" />
-                                    </div>
+                                    <form action="#" class="needs-validation" novalidate>
+                                        <div class="form-row">
 
-                                    <div class="form-outline form-white mb-4">
-                                        <input placeholder="Senha:" type="password" id="typePasswordX"
-                                            class="form-control form-control-lg" />
-                                    </div>
+                                            <div class="form-outline form-white mb-4">
+                                                <input placeholder="E-mail:" type="email" id="typeEmailX"
+                                                    class="form-control form-control-lg" required>
 
-                                    <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+                                            </div>
 
-                                </div>
+                                            <div class="form-outline form-white mb-4">
+                                                <input placeholder="Senha:" type="password" id="typePasswordX"
+                                                    class="form-control form-control-lg" required>
+                                            </div>
+
+                                            <button class="btn btn-outline-light btn-lg px-5"
+                                                type="submit">Login</button>
+
+                                            </div>
+                                        </div>
+                                    </form>
 
                                 <div>
-                                    <p class="mb-0">Não tem uma conta? <a href="cadastro.html" class="text-white-50 fw-bold">Se
+                                    <p class="mb-0">Não tem uma conta? <a href="cadastro.html"
+                                            class="text-white-50 fw-bold">Se
                                             Inscreva!</a></p>
                                 </div>
 
@@ -69,12 +75,13 @@
 
 
     <footer>
-        <a class="mt-5 mb-3 text-muted" style=" text-decoration: none" title="Os alunos de ADS te convidam a conhecer
+        <a class="mt-5 mb-3 text-muted fixarRodapeI" style=" text-decoration: none" title="Os alunos de ADS te convidam a conhecer
     a página da faculdade Fatec de Presidente Prudente - SP" href="http://fatecpp.edu.br/" target="_blank">
             <small>&copy; 2022 Fatec Pres. Prudente</small></a>
 
 
     </footer>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
