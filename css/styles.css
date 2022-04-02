@@ -5,8 +5,18 @@ body {
     background-attachment: fixed;
   }
 
-  footer{
-      position: center;
+  .fixarRodape{
+    bottom: -150px;
+    position: relative;
+    width: 90%;
+    text-align: center;
+      
+  }
+  .fixarRodapeI{
+    bottom: -40px;
+    position: relative;
+    width: 90%;
+    text-align: center;
   }
 
   h1 {
