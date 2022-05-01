@@ -14,9 +14,16 @@
     <script src="https://kit.fontawesome.com/701f20bb44.js" crossorigin="anonymous"></script>
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+    <style>
+        div {
+            border: 1px #000 solid;
+        }
+    </style>
 </head>
 
 <body>
+    <form action="process.php">
     <main>
         <section class="vh-100 gradient-custom">
             <div class="container py-5 h-100">
@@ -34,13 +41,13 @@
                                         <div class="form-row">
 
                                             <div class="form-outline form-white mb-4">
-                                                <input placeholder="E-mail:" type="email" id="typeEmailX"
+                                                <input placeholder="E-mail:" type="email" name="login" id="typeEmailX"
                                                     class="form-control form-control-lg" required>
 
                                             </div>
 
                                             <div class="form-outline form-white mb-4">
-                                                <input placeholder="Senha:" type="password" id="typePasswordX"
+                                                <input placeholder="Senha:" type="password" name="senha" id="typePasswordX"
                                                     class="form-control form-control-lg" required>
                                             </div>
 
@@ -64,7 +71,7 @@
             </div>
         </section>
     </main>
-
+    </form>
 
 
 
