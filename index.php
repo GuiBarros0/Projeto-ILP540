@@ -14,12 +14,6 @@
     <script src="https://kit.fontawesome.com/701f20bb44.js" crossorigin="anonymous"></script>
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-
-    <style>
-        div {
-            border: 1px #000 solid;
-        }
-    </style>
 </head>
 
 <body>
