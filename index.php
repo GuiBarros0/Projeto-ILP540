@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <form action="process.php">
+    <form action="process.php" method="post">
     <main>
         <section class="vh-100 gradient-custom">
             <div class="container py-5 h-100">
@@ -41,7 +41,7 @@
                                         <div class="form-row">
 
                                             <div class="form-outline form-white mb-4">
-                                                <input placeholder="E-mail:" type="email" name="login" id="typeEmailX"
+                                                <input placeholder="E-mail:" type="text" name="login" id="typeEmailX"
                                                     class="form-control form-control-lg" required>
 
                                             </div>
